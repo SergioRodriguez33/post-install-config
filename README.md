@@ -6,9 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket. We will simulate a real-world environment in which users can create tickets to be resolved by the help desk staff.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -32,26 +29,27 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Admin Panel - Roles, Departments, and Teams</h2>
 
 <p>
-<img src="![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/7b8bc52c-1ec2-4d95-b294-50614d7b5648)
-" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/7b8bc52c-1ec2-4d95-b294-50614d7b5648)
+
 </p>
 <p>
 Add a role called "Supreme Admin". Ensure that under the "permissions" tab, you grant all permissions. This role will simulate a SysAdmin and oversee all operations of the help desk staff.
 </p>
 <br />
 
-<p>
-<img src="![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/80cefc7a-c5d6-4d88-bd9b-3562f4b03d2a)
-"/>
-</p>
+
+![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/80cefc7a-c5d6-4d88-bd9b-3562f4b03d2a)
+
 <p>
 Next, we will configure a new department called "System Administrators". For simplicity, we will maintain all of the default settings. We will assign help desk agents to this department.
 </p>
 <br />
 
 <p>
-<img src="![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/721e8c43-4e1e-4379-a47b-67579ea0b3e0)
-"/>
+
+![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/721e8c43-4e1e-4379-a47b-67579ea0b3e0)
+
 </p>
 <p>
 After configuring a department, we must now set up a team. The purpose of a team in osTicket is to pull agents from various departments together to handle a specific issue. In this way, different departments can work together to provide end-user support. 
@@ -60,8 +58,9 @@ After configuring a department, we must now set up a team. The purpose of a team
 
 
 <p>
-<img src="![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/1f13d1b4-2c20-4861-8921-13ff4408a66b)
-"/>
+
+![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/1f13d1b4-2c20-4861-8921-13ff4408a66b)
+
 </p>
 <p>
 We must now create help desk agents. You can assign them thier username, password, access controls, permissions, and teams. In my example, I am assigning a user called "Jane Doe" the Supreme Admin role for my System Administrator's department under the "Access" panel. I have also assigned her to a team called "Level II Support". 
@@ -72,8 +71,9 @@ We must now create help desk agents. You can assign them thier username, passwor
 <h2>Agent Panel</h2>
 
 <p>
-<img src="![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/893d15de-649b-47d5-919f-baac098c3ce9)
-"/>
+
+![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/893d15de-649b-47d5-919f-baac098c3ce9)
+
 </p>
 <p>
 We will configure users. Users act as customers, they are the non-technical employees in a business making the requests for help desk agents to resolve using the ticketing software. In the agent panel, navigate to Users > Add New. 
@@ -83,7 +83,9 @@ We will configure users. Users act as customers, they are the non-technical empl
 <h2>Admin Panel - Service Level Agreements and Ticket Categories</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/SergioRodriguez33/post-install-config/assets/99108184/f41de0ec-2cf6-4de0-a364-966b0b015e61)
+
 </p>
 <p>
 A Service Level Agreement (SLA) is a way of prioritizing a ticket submitted by an end-user based on its severity. Depending on this, help desk agents are required to resolve tickets within an alloted amount of time agreed upon in the SLA.
